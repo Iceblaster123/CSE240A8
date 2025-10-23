@@ -5,6 +5,12 @@
 
 using namespace std;
 
+/*
+Basic player class, holds the name and the number of guesses that the player has made.
+Has appropriate getter and setter functions.
+Constructor has the name() and score set because errors happened in the General Server
+*/
+
 class Player{
     public:
         Player() : name(""), score(1000000) {};
